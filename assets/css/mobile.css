@@ -1,10 +1,15 @@
 .principal {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
     border: 2px solid greenyellow;
 }
 
 .main {
+    width: 100%;
+    gap: 1rem;
+}
+
+.layout {
     width: 100%;
 }
