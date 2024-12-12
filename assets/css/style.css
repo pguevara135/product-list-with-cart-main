@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* ! .red-hat-text-<uniquifier> {
+    font-family: "Red Hat Text", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  } */
+
+:root {
+    --red: rgb(199, 58, 15);
+    --green: rgb(30, 164, 117);
+    --rose-50: rgb(252, 249, 247);
+    --rose-100: rgb(244, 237, 235);
+    --rose-300: rgb(201, 174, 166);
+    --rose-400: rgb(173, 137, 133);
+    --rose-500: rgb(135, 99, 90);
+    --rose-900: rgb(38, 15, 8);
+    --white: rgb(255, 255, 255);
+}
+
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: var(--rose-50);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* ? Geral Config */
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.principal {
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    gap: 1.5rem;
+    border: 2px solid greenyellow;
+}
+
+.main {
+    width: 67%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6875rem;
+    border: 2px solid black;
+}
+
+
+.layout {
+    width: 249px;
+    height: 359px;
+}
+
+/* ! aside */
+
+.cart {
+    width: 30%;
+    height: 50%;
+    grid-area: cart ;
+    min-width: 30%;
+    background-color: blue;
+
+    /* img {
+        width: 50%;
+        height: 100%;
+        border: 2px solid white;
+    } */
+}
