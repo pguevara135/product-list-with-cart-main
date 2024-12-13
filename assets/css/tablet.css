@@ -1,0 +1,28 @@
+body {
+    font-size: 10px;
+}
+
+.principal {
+    max-width: 1440px;
+    height: 100%;
+    display: flex;
+    gap: .8rem;
+    border: 2px solid greenyellow;
+}
+
+.main {
+    width: 67%;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    border: 2px solid black;
+}
+
+.layout {
+    width: 30%;
+    height: 30%;
+}

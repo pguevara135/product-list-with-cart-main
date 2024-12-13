@@ -15,6 +15,7 @@
     --rose-300: rgb(201, 174, 166);
     --rose-400: rgb(173, 137, 133);
     --rose-500: rgb(135, 99, 90);
+    --rose-600: rgb(160, 68, 54);
     --rose-900: rgb(38, 15, 8);
     --white: rgb(255, 255, 255);
 }
@@ -29,7 +30,6 @@ html {
     text-decoration: none;
     outline: none;
     font-family: "Red Hat Text", sans-serif;
-    font-size: 1rem;
     font-weight: 400;
 }
 
@@ -37,6 +37,7 @@ body {
     width: 100vw;
     height: 100vh;
     box-sizing: border-box;
+    font-size: 16px;
     background-color: var(--rose-50);
     display: flex;
     justify-content: center;
@@ -48,6 +49,28 @@ body {
 img {
     width: 100%;
     border-radius: 10px;
+}
+
+h1 {
+    font-size: 3em;
+    padding: 1rem 0;
+    color: var(--rose-900);
+}
+
+.product {
+    color: var(--rose-400);
+    font-weight: bold;
+}
+
+.dessert {
+    font-size: 1.1em;
+    color: var(--rose-900);
+    font-weight: 700;
+}
+
+.value {
+    color: var(--rose-600);
+    font-weight: 700;
 }
 
 .principal {
@@ -72,8 +95,9 @@ img {
 
 
 .layout {
-    width: 249px;
-    height: 359px;
+    width: 30%;
+    height: 30%;
+    box-sizing: border-box;
 }
 
 /* ! aside */
@@ -82,12 +106,7 @@ img {
     width: 30%;
     height: 50%;
     grid-area: cart ;
-    min-width: 30%;
-    background-color: blue;
-
-    /* img {
-        width: 50%;
-        height: 100%;
-        border: 2px solid white;
-    } */
+    h2 {
+        color: var(--rose-500);
+    }
 }
