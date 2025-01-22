@@ -51,13 +51,14 @@ img {
     border-radius: 10px;
 }
 
+header {
+    padding: 1em;
+}
+
 h1 {
     font-size: 3em;
     padding: 1rem 0;
     color: var(--rose-900);
-    text-decoration: overline;
-    text-align: right;
-    border: 2px solid black;
 }
 
 .product {
@@ -104,14 +105,20 @@ h1 {
 /* ! aside */
 
 .cart {
+    max-width: 386px;
     width: 30%;
     height: 50%;
     margin-top: 1.1rem;
     padding: 1.5rem;
     background-color: var(--white);
+    align-items: center;
     grid-area: cart ;
     h2 {
         color: var(--rose-500);
         font-weight: 700;
+    }
+    img {
+        width: 50%;
+        display: block;
     }
 }
